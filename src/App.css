@@ -1,0 +1,727 @@
+/* SideBar */
+
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar {
+  position: fixed;
+  width: 240px;
+  height: 100%;
+  background-color: rgb(24, 24, 48);
+}
+
+.wrapper .sidebar ul li {
+  list-style: none;
+  line-height: 36px;
+  font-weight: 100;
+}
+
+.wrapper .sidebar ul li a {
+  text-decoration: none;
+}
+
+.sidebar-image {
+  width: 40px;
+  border-radius: 20px;
+}
+
+.sidebar-icon {
+  float: right;
+  color: #ede4e4;
+  margin-top: 8px;
+}
+
+/* Sidebar-Id */
+
+.sidebar-id {
+  border: 1px solid rgb(149, 180, 192);
+  width: 65px;
+  height: 65px;
+  border-radius: 100px;
+  margin-left: 80px;
+  background-color: rgb(124, 145, 153);
+}
+
+.sidebar-id h3 {
+  font-weight: 100;
+  margin-left: 17px;
+}
+
+.id-name {
+  color: #ede4e4;
+  font-size: 14px;
+  margin-left: 80px;
+}
+
+.id-email {
+  color: rgb(218, 211, 211);
+  font-size: 12px;
+  margin-left: 39px;
+  margin-top: -7px;
+}
+
+.add-btn {
+  border: 1px solid rgb(54 54 76);
+  color: #ede4e4;
+  border-radius: 18px;
+  background-color: rgb(54 54 76);
+  margin-left: 145px;
+}
+
+/* Text-Style */
+
+.fa-solid,
+.fas {
+  width: 20px;
+}
+
+.text-size {
+  font-size: 15px;
+  padding: 0px 5px;
+  margin-top: 5px;
+}
+
+.list-style {
+  padding-left: 1.2rem;
+}
+
+.left-margin {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.left-style {
+  margin-left: 16px;
+  font-size: 14px;
+}
+
+.team h5 {
+  color: rgb(237 138 10);
+  font-size: 14px;
+  margin-left: 16px;
+}
+
+.team h6 {
+  color: #43454c;
+  font-size: 14px;
+  margin-left: 16px;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #ede4e4;
+}
+
+.challenge h5 {
+  color: rgb(237 138 10);
+  font-size: 14px;
+  margin-left: 16px;
+  margin-top: 20px;
+}
+
+.challenge h6 {
+  color: #43454c;
+  font-size: 14px;
+  margin-left: 16px;
+}
+
+/* Challenge-Button */
+
+.join-btn {
+  list-style: none;
+  margin-left: 6px;
+  padding: 5px;
+}
+
+.join-btn a {
+  text-decoration: none;
+  color: #fdfafa;
+  margin-left: 5px;
+}
+
+.join-btn:hover {
+  border-radius: 30px;
+  width: 200px;
+  background-color: rgb(54 54 76);
+}
+
+/* SideBar-End */
+
+/* Join-Navbar */
+
+.navbar {
+  width: 1125px;
+  height: 70px;
+  background-color: rgb(237 138 10);
+}
+
+/* Content-Text */
+
+.content {
+  margin-left: 240px;
+}
+
+.content h6 {
+  color: rgb(237 138 10);
+  margin-top: 80px;
+  text-align: center;
+}
+
+.content h3 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.content p {
+  font-weight: 500;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.content-btn {
+  border-radius: 6px;
+  width: 165px;
+  background-color: rgb(237 138 10);
+  border: 1px solid rgb(237 138 10);
+  text-align: center;
+  padding: 6px 0px;
+  list-style: none;
+  margin-top: 50px;
+  margin-left: 43%;
+}
+
+.content-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Content-Navbar-End */
+
+/* Cards-LinkButton Title */
+
+.header {
+  background-color: #eef3f5;
+  height: 623px;
+}
+
+.title {
+  margin-left: 240px;
+}
+
+.title h6 {
+  color: rgb(237 138 10);
+  margin-top: 30px;
+  text-align: center;
+}
+
+.title h3 {
+  text-align: center;
+}
+
+/* Cards-LinkButton */
+
+.Goback-button {
+  border-radius: 20px;
+  background-color: white;
+  color: rgb(237 138 10);
+  border: 1px solid white;
+  padding: 6px 12px;
+  margin-right: 10px;
+}
+
+.Goback-button:hover {
+  background-color: rgb(237 138 10);
+  border: 1px solid rgb(237 138 10);
+  color: white;
+  border: 2px solid white;
+}
+
+.category {
+  margin-left: 70px;
+  gap: 30px;
+}
+
+/* Cards-Style */
+
+.card-box {
+  width: 300px;
+  display: grid;
+}
+
+.card-box a {
+  text-decoration: none;
+}
+
+.box {
+  border: 1px solid white;
+}
+
+.box:hover {
+  border-style: solid;
+  border-color: rgb(237 138 10);
+}
+
+.box-body {
+  padding: 0px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 10px;
+}
+
+.box-title {
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+
+.box-body p {
+  font-size: 13px;
+}
+
+.text-number {
+  font-weight: 600;
+  color: black !important;
+}
+
+/* Cards-LinkButton-End */
+
+/* Active-Challenge-id */
+
+.main-id {
+  margin-left: 240px;
+}
+
+.left-id {
+  margin-left: 140px;
+}
+
+.left-id h3 {
+  font-size: xx-large;
+}
+
+.left-id p {
+  font-size: 11px;
+}
+
+.card-image {
+  border-radius: 11px !important;
+  height: 183px;
+  width: 207px;
+}
+
+/* Cards-Active-button-Style */
+
+.card-active {
+  width: 745px;
+  height: 225px;
+}
+
+.active-body {
+  margin-left: -14px;
+}
+
+.btn-active {
+  border-radius: 20px;
+  background-color: rgb(245 241 241);
+  color: rgb(237 138 10);
+  border: 1px solid rgb(245, 241, 241);
+  margin-right: 20px;
+  font-size: 13px;
+}
+
+.btn-weekly {
+  border-radius: 20px;
+  background-color: rgb(245 241 241);
+  color: rgb(237 138 10);
+  border: 1px solid rgb(245 241 241);
+  font-size: 13px;
+}
+
+.card-border {
+  border-bottom: 1px solid #f1e9e9;
+  margin-top: 22px;
+}
+
+.card-btn {
+  border-radius: 6px;
+  width: 138px;
+  background-color: rgb(237 138 10);
+  border: 1px solid rgb(237 138 10);
+  text-align: center;
+  padding: 4px 0px;
+  list-style: none;
+}
+
+.card-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Card-Style-End */
+
+/* ActivePage-Style */
+
+.Header-content {
+  margin-left: 240px;
+}
+
+.Title-content h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.badge-tag {
+  margin-left: 28px;
+}
+
+.badge-weight {
+  font-weight: 400;
+}
+
+.badge-picture {
+  width: 400px;
+  border-radius: 13px;
+  margin-top: 14px;
+  margin-left: 35px;
+}
+
+.body-title {
+  margin-left: 80px;
+}
+
+.line-bottom {
+  border: 1px solid #f3eeeef5;
+  margin-left: 35px;
+  margin-top: 13px;
+  width: 90%;
+}
+
+/* ActivePage-Title */
+
+.head-title {
+  margin-top: 9px;
+  color: rgb(237 138 10);
+  margin-bottom: 23px;
+}
+
+.head-bottom {
+  border: 1px solid #e9e0e0;
+  margin-left: 160px;
+  margin-top: -3px;
+  width: 420px;
+}
+
+.head-bottom1 {
+  border: 1px solid #e9e0e0;
+  margin-left: 66px;
+  margin-top: -3px;
+  width: 520px;
+}
+
+.head-bottom2 {
+  border: 1px solid #e9e0e0;
+  margin-left: 200px;
+  margin-top: -3px;
+  width: 388px;
+}
+
+.head-text {
+  font-size: 13px;
+  margin-left: 18px;
+}
+
+.cards-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* Enter-Button */
+
+.challenge-btn {
+  border-radius: 6px;
+  /* width: 135px; */
+  background-color: rgb(237 138 10);
+  border: 1px solid rgb(237 138 10);
+  padding: 6px 7px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.view-btn {
+  border-radius: 6px;
+  width: 150px;
+  background-color: rgb(237 138 10);
+  border: 1px solid rgb(237 138 10);
+  padding: 6px 0px;
+  color: #fff;
+}
+
+/* End-ActivePage-Style */
+
+/* Modal-TextStyle */
+
+.modal1-style {
+  margin-top: 100px;
+}
+
+.modalstyle1-header {
+  background-color: rgb(237 138 10);
+  color: white;
+  height: 47px;
+}
+
+.modalstyle1-header h3 {
+  margin-left: 145px;
+  margin-top: -7px;
+  margin-bottom: -4px;
+  font-size: 20px;
+}
+
+.body-style {
+  background-color: #eef3f5;
+  overflow-y: auto;
+  height: calc(355px - var(--bs-modal-margin));
+}
+
+.footer-style {
+  background-color: #f5c7ba;
+  height: 65px;
+}
+
+/* Button-Style */
+/* Close-btn */
+
+.close-btn {
+  border: rgb(237 138 10);
+  background-color: rgb(237 138 10);
+  color: white;
+}
+
+/* Cancel-btn */
+
+.cancel-button {
+  color: rgb(237 138 10);
+  border: none;
+  background-color: #f5c7ba;
+}
+
+/* Submit-btn */
+
+.submit-button {
+  color: white;
+  background-color: rgb(237 138 10);
+  border-radius: 20px;
+  padding: 6px 11px;
+  border: none;
+}
+
+/* Plus-btn */
+
+.Plusbtn-add {
+  color: white;
+  background-color: rgb(237 138 10);
+  border-radius: 20px;
+  border: 1px;
+  font-size: 12px;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+
+.addvideo-btn {
+  margin-top: 55px;
+}
+
+.bottom {
+  border: 1px solid #e9dfdf;
+  margin-top: 10px;
+  margin-bottom: -125px;
+}
+
+.modal-width {
+  --bs-modal-width: 509px;
+  margin-left: 397px;
+}
+
+/* Modal1-Style-End */
+
+/* Modal2-Style */
+
+.modal2-into {
+  margin-top: 220px;
+  width: 470px;
+  height: 158px;
+}
+
+.modal2-into-left {
+  margin-right: 450px;
+}
+
+.Padding-body {
+  padding: 0px;
+}
+
+.Padding-body p {
+  font-size: 11px;
+  margin-left: 19px;
+  color: #817272;
+  margin-top: -7px;
+}
+
+.cancelmodal-btn {
+  color: rgb(237 138 10);
+  border: none;
+  margin-right: 379px;
+  margin-top: -11px;
+  background-color: white;
+}
+
+.inputModal-style {
+  background-color: aliceblue;
+  border: aliceblue;
+}
+
+.form-width {
+  width: 437px;
+}
+
+.text-input {
+  border-radius: 0px;
+  line-height: 1.2;
+  font-size: 13px;
+}
+
+/* iframe Style */
+
+iframe {
+  border: 0;
+  border-radius: 20px;
+  width: 468px;
+  height: 208px;
+  margin-bottom: -348px;
+}
+
+/* Modal-backdrop */
+
+.modal-backdrop {
+  display: none;
+}
+
+.modal {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* edit button */
+
+.edit-btn {
+  margin-top: -36px;
+  color: white;
+  background-color: rgb(237 138 10);
+  border-radius: 20px;
+  padding: 5px 9px;
+  border: none;
+}
+
+.error-msg {
+  color: red;
+  width: 50%;
+  margin-top: 37px;
+}
+
+/* Copy Style */
+
+.input-style {
+  width: 270px;
+}
+
+.form-style {
+  margin-left: 472px;
+}
+
+.copy {
+  position: relative;
+  display: inline-block;
+}
+
+.copy .copyText {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.copy .copyText::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.copy:hover .copyText {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Modal2-Style-End */
+
+/* Responsive style */
+
+@media screen and (max-width: 620px) {
+  .header {
+    width: 1366px;
+    height: 700px;
+  }
+
+  .left-id {
+    margin-left: 82px;
+  }
+
+  .col1-Style {
+    width: 200px;
+  }
+
+  .col2-Style {
+    width: 380px;
+    margin-left: 49px;
+  }
+
+  .content h6 {
+    width: 1100px;
+  }
+
+  .content h3 {
+    width: 1100px;
+  }
+
+  .content p {
+    width: 1100px;
+  }
+
+  .content-btn {
+    margin-left: 465px;
+  }
+
+  .title h6 {
+    width: 1120px;
+  }
+
+  .title h3 {
+    width: 1126px;
+  }
+}
