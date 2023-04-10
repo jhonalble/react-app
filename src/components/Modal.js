@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import ReactPlayer from 'react-player'
 
 
@@ -6,15 +6,11 @@ function Modal() {
 
   // for onChange Events
 
-  const [youtubeVideo, setYoutubeVideo] = useState('');
+  const [youtubeVideo, ] = useState('');
 
   // for submit Event
 
   const [youtubeURL, setYoutubeURL] = useState('');
-
-  // for Error Message
-
-  const [youtubeError, setYoutubeError] = useState('Invalid youtube URL');
 
   // handleOnchange function
 

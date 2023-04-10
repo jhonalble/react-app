@@ -16,7 +16,7 @@ function LinkButton() {
       <div className='title'>
         <nav className="navbar">
           <div className="container-fluid">
-            <a className="navbar-brand text-white">Challenger Events Type</a>
+            <a className="navbar-brand text-white" href='/'>Challenger Events Type</a>
             <form className="d-flex" role="search">
               <button style={{ marginRight: '15px' }} onClick={clickHandler} className="Goback-button" type="submit"><i className="fa-sharp fa-solid fa-arrow-rotate-left"></i>Back</button>
             </form>

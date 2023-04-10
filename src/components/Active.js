@@ -15,7 +15,7 @@ function Active() {
     <div className='main-id'>
       <nav style={{ width: '1109px' }} className="navbar">
         <div className="container-fluid">
-          <a className="navbar-brand text-white" href='#'>Available Challenges</a>
+          <a className="navbar-brand text-white" href='/'>Available Challenges</a>
           <form className="d-flex" role="search">
             <button onClick={goback} className="Goback-button" type="submit"><i className="fa-sharp fa-solid fa-arrow-rotate-left"></i>Back</button>
           </form>

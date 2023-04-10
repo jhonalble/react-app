@@ -41,12 +41,12 @@ const Sidebar = () => {
             <h5>TeamingUP</h5>
             <h6>Organize & workout with teams</h6>
           </div>
-          <li className='nav-link mt-3'><i className='fa-solid fa-users-line mx-3 text-white'></i><a style={{ fontSize: '14px' }} href='#'>Groups</a></li>
+          <li className='nav-link mt-3'><i className='fa-solid fa-users-line mx-3 text-white'></i><a style={{ fontSize: '14px' }} href='/'>Groups</a></li>
           <div className='challenge'>
             <h5>PANDA Challenge</h5>
             <h6>Challenge to win price</h6>
             <li className='join-btn '><i className="fa-solid fa-comment-dollar text-white mx-2"></i><Link style={{ fontSize: '14px' }} to='/join'>Join a Challenge</Link></li>
-            <li className='join-btn '><i className="fa-regular fa-clipboard text-white mx-2"></i><Link style={{ fontSize: '14px',marginLeft:'12px' }} to='/copy'>Copy Text</Link></li>
+            <li className='join-btn '><i className="fa-regular fa-clipboard text-white mx-2"></i><Link style={{ fontSize: '14px',marginLeft:'11px' }} to='/copy'>Copy Text</Link></li>
           </div>
         </div>
       </div>
