@@ -28,7 +28,7 @@ const Sidebar = () => {
         </div>
         
         <div id='myLinks' className="sidebar">
-          <img  className="sidebar-image mx-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyUI88jg8Op9t8urQerOA7n2HeIp6jCcYH4bdVeCcOSA&s" alt="PS" />
+          <img onClick={myFunction} className="sidebar-image mx-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyUI88jg8Op9t8urQerOA7n2HeIp6jCcYH4bdVeCcOSA&s" alt="PS" />
 
           <div className="sidebar-icon">
             <i className="fa-regular fa-circle-question mx-2"></i>
