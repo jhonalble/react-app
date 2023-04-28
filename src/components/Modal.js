@@ -6,7 +6,7 @@ function Modal() {
 
   // for onChange Events
 
-  const [youtubeVideo, ] = useState('');
+  const [youtubeVideo,] = useState('');
 
   // for submit Event
 
@@ -39,11 +39,29 @@ function Modal() {
               <form>
                 <div className="mb-3">
                   <label htmlFor="recipient-name" className="col-form-label">Challenge</label>
-                  <textarea type="text" className="form-control text-input" id="recipient-name" placeholder='1 Mile run Challenge&#13;&#10;Endurance'></textarea>
+                  <div className='text-typeStyle'>
+                    <h6>1 Mile Run Challenge</h6>
+                    <p>Endurance</p>
+                  </div>
                 </div>
                 <div className="mb-3">
                   <label htmlFor="message-text" className="col-form-label">Workouts</label>
-                  <textarea className="form-control text-input" id="recipient-name" placeholder="Runing&#13;&#10;ENDURANCE"></textarea>
+                  {/* <div className='click-typeStyle'> 
+                  <h6>Runing</h6>
+                  <p>ENDURANCE</p> */}
+
+                  {/* <h6 type='button' data-bs-toggle="dropdown" style={{ float: 'right', marginTop: '-41px', marginRight: '15px' }}>Click Here to Enter Workouts Data<img style={{ width: '18px', marginLeft: '83px' }} src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQttlohvRNsmGWNSS3PwsnBGjbKoihKfTYnHg&usqp=CAU' /></h6> */}
+
+                  <select class=" formSlected-style form-select-lg mb-3" >
+                    <option selected className='click-typeStyle'>
+                      <h6>Runing</h6>
+                      <p>ENDURANCE</p>
+                      <h6 type='button' data-bs-toggle="dropdown" style={{ float: 'right', marginTop: '-41px', marginRight: '15px' }}>Click Here to Enter Workouts Data<img style={{ width: '18px', marginLeft: '83px' }} src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQttlohvRNsmGWNSS3PwsnBGjbKoihKfTYnHg&usqp=CAU' /></h6>
+                    </option>
+
+                  </select>
+
+                  {/* </div> */}
                 </div>
               </form>
 

@@ -7,7 +7,7 @@ function Join() {
     <div className='content'>
       <nav className="navbar">
         <div className="container-fluid">
-          <a className="navbar-brand text-white" href="/">PANDA Challenge<i className="fa-regular fa-circle-question mx-2"></i></a>
+          <a className="navbar-brand navbarStyle text-white" href="/">PANDA Challenge<i className="fa-regular fa-circle-question mx-2"></i></a>
         </div>
       </nav>
       <h6>PANDA Challenges</h6>

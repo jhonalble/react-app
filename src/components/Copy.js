@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const Copy = () => {
-  const [,setText] = useState('');
+  const [text,setText] = useState('');
 
   const handleCopyClick = (e) => {
     const copyText = document.getElementById('myInput');

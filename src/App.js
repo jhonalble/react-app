@@ -1,13 +1,13 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Join from './components/Join';
 import Sidebar from './components/Sidebar';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import LinkButton from './components/LinkButton';
 import Active from './components/Active';
 import Home from './components/Home';
 import Profile from './components/Profile';
 import ActivePage from './components/ActivePage';
 import Copy from './components/Copy';
+import LinkButton from './components/LinkButton';
 
 function App() {
   return (

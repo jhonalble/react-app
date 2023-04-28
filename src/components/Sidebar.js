@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Link } from "react-router-dom";
 
 const Sidebar = () => {
@@ -9,12 +9,27 @@ const Sidebar = () => {
     { name: 'Calendar', to: '/calendar', className: 'fa-sharp fa-solid fa-calendar-week text-white', style: 'text-white left-margin' },
     { name: 'My Workouts', to: '/my workout', className: 'fa-solid fa-bolt text-white', style: 'text-white left-margin' }
   ];
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
 
   return (
     <>
       <div className="wrapper">
-        <div className="sidebar">
-          <img className="sidebar-image mx-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyUI88jg8Op9t8urQerOA7n2HeIp6jCcYH4bdVeCcOSA&s" alt="PS" />
+        <div class="menu-icon" onClick={myFunction}>
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        
+        <div id='myLinks' className="sidebar">
+          <img  className="sidebar-image mx-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyUI88jg8Op9t8urQerOA7n2HeIp6jCcYH4bdVeCcOSA&s" alt="PS" />
+
           <div className="sidebar-icon">
             <i className="fa-regular fa-circle-question mx-2"></i>
             <i className="fa-sharp fa-solid fa-bell mx-2"></i>
@@ -46,10 +61,11 @@ const Sidebar = () => {
             <h5>PANDA Challenge</h5>
             <h6>Challenge to win price</h6>
             <li className='join-btn '><i className="fa-solid fa-comment-dollar text-white mx-2"></i><Link style={{ fontSize: '14px' }} to='/join'>Join a Challenge</Link></li>
-            <li className='join-btn '><i className="fa-regular fa-clipboard text-white mx-2"></i><Link style={{ fontSize: '14px',marginLeft:'11px' }} to='/copy'>Copy Text</Link></li>
+            <li className='join-btn '><i className="fa-regular fa-clipboard text-white mx-2"></i><Link style={{ fontSize: '14px', marginLeft: '14px' }} to='/copy'>Copy Text</Link></li>
           </div>
         </div>
       </div>
+
     </>
   )
 }
