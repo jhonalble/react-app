@@ -56,7 +56,7 @@ const Sidebar = () => {
             <h5>TeamingUP</h5>
             <h6>Organize & workout with teams</h6>
           </div>
-          <li className='nav-link mt-3'><i className='fa-solid fa-users-line mx-3 text-white'></i><a style={{ fontSize: '14px' }} href='/'>Groups</a></li>
+          <li className='nav-link mt-3'><i className='fa-solid fa-users-line mx-3 text-white'></i><a style={{ fontSize: '14px',fontWeight:"100" }} href='/'>Groups</a></li>
           <div className='challenge'>
             <h5>PANDA Challenge</h5>
             <h6>Challenge to win price</h6>

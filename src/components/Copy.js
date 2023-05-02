@@ -23,7 +23,7 @@ const Copy = () => {
   return (
     <div className='text-center' style={{ marginTop: '100px' }}>
       <form className="d-flex form-style">
-        <input onChange={handleOnChange} id='myInput' className="form-control me-2 input-style" placeholder="Enter Text" aria-label="Copy" />
+        <input onChange={handleOnChange} id='myInput' className="form-control input-style" placeholder="Enter Text" aria-label="Copy" />
         <div className='copy'>
           <button onClick={handleCopyClick} className="btn btn-outline-primary" onMouseOut={outFunc}>
             <span className='copyText' id='myTooltip'>Copy to Clipboard</span>

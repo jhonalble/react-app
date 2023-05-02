@@ -4,7 +4,7 @@ import Card from './Card';
 
 
 
-function LinkButton() {
+export default function LinkButton() {
   // Goback function
 
   const navigate = useNavigate();
@@ -14,16 +14,18 @@ function LinkButton() {
   }
 
   return (
-    <div className='header'>
+    <div>
       <div className='title'>
-        <nav className="navbar">
+        <nav className="navbar height-responsive">
           <div className="container-fluid">
-            <a className="navbar-brand text-white" href='/'>Challenger Events Type</a>
+            <a className="navbar-brand navbar-responsive text-white" href='/'>Challenger Events Type</a>
             <form className="d-flex" role="search">
-              <button style={{ marginRight: '15px' }} onClick={clickHandler} className="Goback-button" type="submit"><i className="fa-sharp fa-solid fa-arrow-rotate-left"></i>Back</button>
+              <button  onClick={clickHandler} className="Goback-button button-responsive" type="submit"><i className="fa-sharp fa-solid fa-arrow-rotate-left"></i>Back</button>
             </form>
           </div>
         </nav>
+        <div className='header'>
+          <h5 style={{color:"#eef3f5"}}>h</h5>
         <h6>Challenger Events Type</h6>
         <h3>Select an event type to view challenges.</h3>
         <div className=''>
@@ -43,9 +45,10 @@ function LinkButton() {
             <Card title="sport specific" num="0" />
           </div>
         </div>
+        </div>
       </div>
     </div>
   )
 }
 
-export default LinkButton
+
